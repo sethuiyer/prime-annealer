@@ -1,0 +1,14 @@
+name: multiplicative_constraint
+version: 0.1.0
+authors:
+  - sethuiyer <sethuiyer@gmail.com>
+
+description: |
+  Constraint partitioning engine by sethuiyer (github.com/sethuiyer).
+  Heat-kernel spectral annealer for arbitrary segmentable objectives.
+
+crystal: ">= 1.8, < 2.0"
+
+homepage: https://github.com/sethuiyer/prime-annealer
+
+license: Restricted
