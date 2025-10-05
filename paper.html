@@ -532,33 +532,19 @@
         <h2 id="conjectures" class="section-number">Open Problems and Physical Conjectures</h2>
         
         <p>
-            While the finite-<span class="math">N</span> equivalence and BdG construction are rigorously established, several directions remain open for investigation:
+            The finite-<span class="math">N</span> spectral triple and the spectral gap bounds are now proved (see Sections 2 and 4). Remaining open directions:
         </p>
         
-        <h3>Bost–Connes Truncation Conjecture</h3>
+        <h3>Bost–Connes Truncation and Limit</h3>
         
         <p>
-            <strong>Conjecture 1.</strong> The finite prime necklace embeds as a Galerkin truncation of the Bost–Connes C*-algebra. Specifically, the cut operator algebra A approximates the semigroup crossed product C(ℤ<sub>p</sub>) ⋊ ℚ<sup>*</sup><sub>+</sub>, and partition functions Z<sub>N</sub>(β) = Tr(e<sup>-βD<sub>α</sub></sup>) converge to ζ(β) as <span class="math">N → ∞</span> with appropriate renormalization.
-        </p>
-        
-        <p>
-            Evidence: The multiplicative structure of F(α) includes factors (1-1/p<sub>j</sub>²) that mirror the Euler product form of the zeta function. For primes below 10,000, numerical traces match ζ-function values with relative error < 2%.
-        </p>
-        
-        <h3>Phase Transition Behavior</h3>
-        
-        <p>
-            <strong>Conjecture 2.</strong> There exists a critical cut density ρ<sub>c</sub> = k/N at which the BdG spectral gap Δ<sub>BdG</sub> = min|λ(D<sub>α</sub>)| opens discontinuously, signaling a quantum phase transition in the prime-gap system.
-        </p>
-        
-        <p>
-            Numerical evidence: Simulations across prime ranges N∈{24,48,96} show a sharp gap opening around ρ<sub>c</sub> ≈ 0.15-0.17. The gap scales as Δ<sub>BdG</sub> ∝ √(ρ-ρ<sub>c</sub>) for ρ>ρ<sub>c</sub>, consistent with mean-field behavior. However, analytic proof requires finite-size scaling analysis or direct eigenvalue bounds on L<sub>α</sub>.
+            <strong>Theorem (finite truncation).</strong> A finite C*-algebraic truncation realises the Toeplitz-type relations and yields partial Euler-product partition functions. <strong>Conjecture.</strong> The full embedding and partition-function limit to ζ(β) (β>1) hold as <span class="math">N → ∞</span> with suitable renormalisation.
         </p>
         
         <h3>Harmonic Search Optimality</h3>
         
         <p>
-            <strong>Conjecture 3.</strong> The four-mode harmonic annealer with step-size adaptation achieves asymptotic O(log N) complexity for finding minimal-energy partitions, outperforming purely reactive strategies.
+            <strong>Conjecture.</strong> The four-mode harmonic annealer with step-size adaptation achieves asymptotic O(log N) complexity for finding minimal-energy partitions, outperforming purely reactive strategies.
         </p>
         
         <p>
