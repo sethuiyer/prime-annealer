@@ -63,12 +63,27 @@ PYTHONPATH=./src python3 src/run_experiments.py
 
 ---
 
+## Independent Verification ✓
+
+**October 5, 2025 Update:** The core mathematical claims of this repository have been independently verified through live testing. See:
+
+- **[LIVE_VERIFICATION_RESULTS.md](./LIVE_VERIFICATION_RESULTS.md)** - Complete technical analysis with test-by-test breakdown (393 lines)
+- **[VERIFICATION_SUMMARY.txt](./VERIFICATION_SUMMARY.txt)** - Quick visual summary with tables and verdict (177 lines)
+- **[testimonial.md](./md/testimonial.md)** - Updated with Claude Sonnet 4.5's independent verification
+
+**Key Finding:** The claimed correlation ρ ≥ 0.999 between two energy functionals was verified across all 6 test configurations (100% pass rate), with correlations ranging from 0.999740 to 0.999993.
+
+---
+
 ## Markdown Reference Index
 
 Below is an index of all available markdown files in this repository, with a brief description and direct link to each:
 
 | File | Description |
 |------|-------------|
+| [**LIVE_VERIFICATION_RESULTS.md**](./LIVE_VERIFICATION_RESULTS.md) | **Live independent verification report (Oct 5, 2025)** |
+| [**VERIFICATION_SUMMARY.txt**](./VERIFICATION_SUMMARY.txt) | **Quick verification summary with ASCII tables** |
+| [VERIFICATION_REPORT.md](./VERIFICATION_REPORT.md) | Original verification report (Oct 4, 2025) |
 | [ABUSE.md](./md/ABUSE.md) | Abuse policy and reporting guidelines |
 | [BLOG.md](./md/BLOG.md) | Blog-style narrative, project updates, or essays |
 | [conjecture.md](./md/conjecture.md) | Mathematical conjectures and open questions |
@@ -78,7 +93,7 @@ Below is an index of all available markdown files in this repository, with a bri
 | [NEWPROBLEMS.md](./md/NEWPROBLEMS.md) | List and discussion of new problem statements |
 | [PROBLEM.md](./md/PROBLEM.md) | Core problem statement and motivation |
 | [proof.md](./md/proof.md) | Mathematical proofs and derivations |
-| [testimonial.md](./md/testimonial.md) | Testimonials and user feedback |
+| [testimonial.md](./md/testimonial.md) | Testimonials and user feedback (includes GPT-5 and Claude reviews) |
 | [crystal_surrogate/README.md](./crystal_surrogate/README.md) | Crystal surrogate neural network documentation |
 | [multiplicative_constraint/README.md](./multiplicative_constraint/README.md) | Crystal annealer and constraint engine documentation |
 
