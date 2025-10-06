@@ -1,15 +1,19 @@
 
 
+
 <p align="center">
   <img src="prime_annealer_logo.png" alt="Prime Annealer Logo" width="200"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/sethuiyer/prime-annealer/actions"><img src="https://img.shields.io/github/actions/workflow/status/sethuiyer/prime-annealer/ci.yml?branch=main&label=CI&logo=github" alt="CI Status"></a>
-  <a href="https://github.com/sethuiyer/prime-annealer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sethuiyer/prime-annealer?color=blue" alt="License"></a>
+  <a href="https://github.com/sethuiyer/prime-annealer/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Research%20Only-blue" alt="Research License"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg?logo=python" alt="Python"></a>
   <a href="https://pypi.org/project/numpy/"><img src="https://img.shields.io/badge/deps-numpy%2C%20scikit--learn%2C%20ortools-blue" alt="Dependencies"></a>
+  <a href="https://github.com/sethuiyer/prime-annealer/blob/main/CITATION.cff"><img src="https://img.shields.io/badge/cite-this-orange" alt="Citation"></a>
 </p>
+
+
 
 # Prime Annealer: Heat-Kernel Partitioning Playground
 
@@ -418,3 +422,7 @@ annealer.
 ## Further Reading
 
 For a story-driven walkthrough of how a “prime necklace” bridges number theory, superconductors, and non-commutative geometry, see the Medium essay: [How a Simple Necklace Puzzle Unveils the Universe’s Deepest Connections](https://medium.com/@sethuiyer/how-a-simple-necklace-puzzle-unveils-the-universes-deepest-connections-279ea27f9676).
+
+<p align="center">
+  <em>As of April 19, I (Sethu Iyer) was not affiliated with any company. This research was published independently during that period and does not overlap with any corporate work.</em>
+</p>
