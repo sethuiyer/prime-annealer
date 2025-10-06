@@ -1,3 +1,16 @@
+
+
+<p align="center">
+  <img src="prime_annealer_logo.png" alt="Prime Annealer Logo" width="200"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sethuiyer/prime-annealer/actions"><img src="https://img.shields.io/github/actions/workflow/status/sethuiyer/prime-annealer/ci.yml?branch=main&label=CI&logo=github" alt="CI Status"></a>
+  <a href="https://github.com/sethuiyer/prime-annealer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sethuiyer/prime-annealer?color=blue" alt="License"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg?logo=python" alt="Python"></a>
+  <a href="https://pypi.org/project/numpy/"><img src="https://img.shields.io/badge/deps-numpy%2C%20scikit--learn%2C%20ortools-blue" alt="Dependencies"></a>
+</p>
+
 # Prime Annealer: Heat-Kernel Partitioning Playground
 
 **Prime Annealer** is a research toolkit for exploring heat-kernel spectral partitioning on SAT-style clause sets, social networks, and other combinatorial workloads. It combines:
